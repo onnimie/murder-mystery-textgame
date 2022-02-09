@@ -1,0 +1,18 @@
+
+This is a fast walkthrough, just the commands you need to give in order to reach the end of the game.
+
+(If you want a more thorough guide on how to maneuver in the game and where to find the pieces to the puzzle, read huijausTeksti.txt)
+
+Press Enter 4 times ( skip intro )
+
+commands to give:
+
+wakeup
+go corridor
+go murder cabin
+interrogate martin
+interrogate martin (you can replace both of these with liemann, but you need to interrogate the same officer)
+yeas
+martin (here you need to write the killer's name, the game will end no matter who you write but you won't win if you get it wrong)
+
+(the correct answer for the killer can be found in the code inside directory 'ui' inside TextUI.scala on line 51.

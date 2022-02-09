@@ -1,0 +1,123 @@
+
+
+HUIJARIN TEKSTI
+
+Alla on kartta koko vaunusta
+vaunut järjestyksessä
+
+[inspectable, pick-up-ble, non-person]
+
+    Tavaravaunu                         tavaravaunun katto
+            Fergus
+
+            [laatikko]
+
+
+    Hyttivaunu                          hyttivaunun katto
+        (hytti D)(tyhjä nyt)
+            Pelaaja
+
+
+        (hytti C)
+            Fiskers
+            Inspector Martin
+            Officer Liemann
+
+            [verikengät]
+            [kangaspala]
+
+        (käytävä)
+            Hércullinen Poisson
+
+
+    Välitila - WC
+            [huulipuna]
+
+
+    Oleskeluvaunu                       oleskeluvaunun katto
+            Vivienne
+            Satoshi Ken
+            Jack California
+            Dr. Cadieux
+
+
+    Ravintolavaunu                      Ravintolavaunun katto
+        (bar)
+            Bartender                   [marien veitsi]
+            Antoine Beaumont
+            Nina Fortner
+
+        (corner table)
+            Thomas Klein
+
+            [newspaper]
+
+    Hyttivaunu                          hyttivaunun katto
+        (hytti B)
+            Anna Weber
+            Finn Weber
+            Marie
+            Throckmorton
+
+        (hytti A)
+            Heinz Ketchum
+
+            [Heinz's bag]
+
+        (käytävä)
+            Conductor
+                [key for storage car]
+
+
+    ----- TUTKI KARTTAA (trainMap.png) SAMALLA, SAATTAA HELPOTTAA -----
+
+    käytä myös help-komentoa, jos unohdat käytettävät komennot
+
+1. Herää
+
+    Skippaa intro-sivut painamalla enteriä jokaisessa, kunnes pääset unitilaan, jossa komennolla 'wakeup' heräät.
+
+2. Tutustu tilanteeseen
+
+    Mene viereiseen hyttiin, jossa murha on tapahtunut. Käytävällä seisoo Poisson, jota voit kuulustella ja tutkia. 'murder cabin' on oikea hytti.
+
+    Tutki huoneen tekstiä. Huomaat, että huoneesta löytyy kangaspala ja kenkäpari.
+    Tutki molempia tavaroita. Puhu molemmille poliiseille. Huomaat, että huoneessa on ikkuna. Palataan tähän myöhemmin.
+
+3. Tutustu junan matkustajiin.
+
+    Mene lounge areaan välitilan kautta (voit myös käydä vessassa ja napata huulipunan). Kuulustele oleskelutilan kaikkia ihmisiä ja tutki heitä samalla.
+    Oleskelutilassa on Vivienne, Satoshi Ken, Cadieux ja Jack California.
+
+    Siirry kahvila/baari-vaunuun. Se jakautuu käytännössä kahteen osaan: kulmapöytään ja baariin. Kulmäpöydällä istuu Thomas, jonka kanssa voit jutustella
+    ja häntä voi myös tietenkin tutkia. Hänen pöydältään löytyy myös uutislehti, jonka voit vapaaehtoisesti ottaa.
+    Baarin takana työskentelee baarimikko, ja hän palvelee baarilla Beaumontia ja Fortneria. Kaikkia heitä voit tutkia ja kuulustella.
+
+    Siirry tämän jälkeen toiseen hyttivaunuun. Se on merkattu nimellä cabin car.
+
+    Toisen hyttivaunun käytävällä seisoo konduktööri rikkoutuneen ikkunan äärellä. Kun kuulustelet häntä, hän kysyy sinulta, että tarvitsetko avainta.
+    Vastaa nyt tietenkin 'yes' tai 'yep-yep' että saat tavaratilavaunun oven avaimen käyttöösi. Tavaravaunu sijaitsee toisella puolella junaa, oman
+    hyttivaunun käytävällä on tämän sisäovi.
+
+    Käy molemmissa hyteissä 'cabin a' ja 'cabin b', joissa ovat Marie, Heinz ja molemmat Weberit. Heiltä saat tärkeää informaatiota murhayön kuvan laatimiseksi.
+    Marie myös mainitsee hävinneen veitsensä.
+
+4. Junan katto
+
+    Kaikkien matkustajien mielipiteet/alibit yms. on nyt tutut, joten informaatiota saadaan nyt muualta. Mene samaan käytävään, missä konduktööri seisoo. Mene ikkunalle.
+    Pelaaja kiipeää junan katolle ikkunan kautta. Kulje etelään päin (tavaravaunun kattoa kohti). Katolla (junan keskellä suurin piirtein) näet veitsen. Tämä on murha-aseena
+    käytetty veitsi, sekä Marien oma veitsi. Kun palautat veitsen Marielle 'use'-komennolla (pitää olla samassa huoneessa), Marie antaa lisää informaatiota.
+
+    Voit palata katolle, ethän ole välttämättä kulkenut koko reittiä. Mene etelään kunnes päädyt junan päätyyn, eli tavaravaunun katolle. Huomaat, että sen sivussa on tikkaat alas
+    sen ulkoovelle. Kun kiipeät tikkaat alas, huomaat että ovea on hakattu vasaralla. (tärkeää informaatiota???) Voit palata vaunun sisälle kun menet pohjoiseen, jolloin olet oman hyttivaunun
+    katolla, ja menet ikkunasta sisään murhahyttiin.
+
+5. Tavaravaunu
+
+    Mene oman hyttivaunun käytävään murhahytistä. Ehkä olet huomannut, mutta et heti pääse tavaravaunun ovesta läpi, koska se on lukittu. Onneksi sinulla on konduktöörin antama avain, ja voitkin
+    syöttää komennon 'use key', jolloin ovi avautuu. Mene vaunun sisälle. Vaunun sisällä huomaat, että yksi boksi liikkuu. Kun inspectaat tätä laatikkoa, potkaiset salamatkustaja-Fergusin sieltä ulos.
+    Fergus kertoo oman informaationsa, josta otat tietenkin kaiken tarvittavan pääsi sisään.
+
+6. Informaation keruu tehty
+
+    Nyt sinulla pitäisi olla kerätty kaikki informaatio. Toivottavasti olet päätynyt oikeaan johtopäätökseen. Löydät oikean vastauksen tiedoston TextUI riviltä 51.
